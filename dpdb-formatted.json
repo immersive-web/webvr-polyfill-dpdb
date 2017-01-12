@@ -1,5 +1,5 @@
 {
-  "last_updated":"2017-01-12T07:44:49Z",
+  "last_updated":"2017-01-12T08:41:55Z",
   "devices":[
     {
       "type":"android",
@@ -967,6 +967,23 @@
       "ac":1000
     },
     {
+       "type": "android",
+       "rules": [
+         {
+           "mdmh": "samsung/*/SM-N920W8/*"
+         },
+         {
+           "ua": "SM-N920W8"
+         }
+       ],
+       "dpi": [
+         515.1,
+         518.4
+       ],
+       "bw": 3,
+       "ac": 1000
+     },
+    {
       "type":"android",
       "rules":[
         {
@@ -1222,6 +1239,20 @@
       ],
       "bw":3,
       "ac":1000
+    },
+    {
+      "type": "android",
+      "rules": [
+        {
+          "mdmh": "samsung/*/SM-G930F/*"
+        },
+        {
+          "ua": "SM-G930F"
+        }
+      ],
+      "dpi": 576.6,
+      "bw": 3,
+      "ac": 1000
     },
     {
       "type":"android",
