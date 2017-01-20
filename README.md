@@ -6,6 +6,7 @@ The following devices were added (and/or corrections made):
 
 2017-01-19
 - Added format key to avoid 'unexpected format version' error (thanks to [AdrienPoupa](https://github.com/AdrienPoupa) for spotting this oversight)
+
 2017-01-12
 - [Google Pixel XL](https://github.com/aframevr/aframe/issues/2117#issuecomment-263336591)
 - [Motorola G4](https://github.com/aframevr/aframe/issues/2117#issuecomment-265275683)
