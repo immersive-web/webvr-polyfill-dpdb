@@ -4,6 +4,9 @@ This is a fork of the [online cache](https://storage.googleapis.com/cardboard-dp
 
 The following devices were added (and/or corrections made):
 
+2017-05-22
+- [Google Pixel](https://github.com/googlevr/webvr-polyfill/commit/1da4b02f702bb0e2662ce713a52fb452290f36c1#diff-7c2d4996a1c9e98511cab90ef34c060d)
+
 2017-01-19
 - Added format key to avoid 'unexpected format version' error (thanks to [AdrienPoupa](https://github.com/AdrienPoupa) for spotting this oversight)
 

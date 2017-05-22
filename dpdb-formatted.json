@@ -54,6 +54,23 @@
       "ac": 1000
     },
     {
+      "type": "android",
+      "rules": [
+        {
+          "mdmh": "Google//Pixel/"
+        },
+        {
+          "ua": "Pixel"
+        }
+      ],
+      "dpi": [
+        432.6,
+        436.7
+      ],
+      "bw": 3,
+      "ac": 1000
+    },
+    {
       "type":"android",
       "rules":[
         {
