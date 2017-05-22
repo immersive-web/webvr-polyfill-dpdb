@@ -1,0 +1,13 @@
+{
+  "name": "webvr-polyfill-dpdb",
+  "version": "0.9.27",
+  "description": "A Device Parameter Database for the WebVR Polyfill",
+  "main": "dpdb.json",
+  "license": "Apache-2.0",
+  "authors": "WebVR Polyfill DPDB authors",
+  "homepage": "https://github.com/WebVRRocks/webvr-polyfill-dpdb",
+  "repository": "WebVRRocks/webvr-polyfill-dpdb",
+  "bugs": {
+    "url": "https://github.com/googlevr/webvr-polyfill/issues/new?title=[DPDB]+"
+  }
+}
