@@ -12,6 +12,7 @@
   },
   "scripts": {
     "start": "npm run build",
-    "build": "node scripts/build.js"
+    "build": "node scripts/build.js --write",
+    "test": "node scripts/build.js"
   }
 }

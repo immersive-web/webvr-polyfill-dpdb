@@ -54,7 +54,7 @@ npm run build
 Or call this [Node](https://nodejs.org) script directly:
 
 ```sh
-node scripts/build.js
+node scripts/build.js --write
 ```
 
 ## Change Log
