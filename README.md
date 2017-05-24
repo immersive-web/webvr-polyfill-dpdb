@@ -1,6 +1,9 @@
 # webvr-polyfill-dpdb
 
-This is a fork of the [online cache](https://storage.googleapis.com/cardboard-dpdb/dpdb.json) of the Device Parameter Database (DPDB) for the [webvr-polyfill].
+[![Build Status (Travis CI)](http://img.shields.io/travis/googlevr/webvr-polyfill.svg?style=flat-square)](https://travis-ci.org/googlevr/webvr-polyfill)
+[![Package Info (npm)](http://img.shields.io/npm/v/webvr-polyfill.svg?style=flat-square)](https://www.npmjs.org/package/webvr-polyfill)
+
+This is a fork of the [online cache](https://storage.googleapis.com/cardboard-dpdb/dpdb.json) of the **Device Parameter Database (DPDB)** for the [webvr-polyfill].
 
 ## Adding A Device
 
