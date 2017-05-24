@@ -30,17 +30,50 @@ You'll need to update `dpdb-formatted.json` with your device's information in th
 ```
 
 * `type`: Either `"android"` or `"ios"`.
-* `rules`: An array of various rules that must be satisfied in order to use the configuration. Each rule is an object with one property and can be one of the following:
-    * `ua`: The User-Agent string to match. Go to [useragentstring.com] and find something unique that looks like the device's name. Use this if type is `"android"`.
-    * `res`: An array of resolution values as width and height. Use this if type is `"ios"`.
-    * `mdmh`: The make and model of the device. Currently unused in [webvr-polyfill], and used for native devices(?) -- see other entries.
-* `dpi`: An array of the DPI values of the screen as `[x, y]` values. Get this information via the [Device Info App] and look for `Actual DPI X` and `Actual DPI Y` values.
-* `ac`: Currently unused in [webvr-polyfill]?
-* `bw`: The bezel width in millimeters. 3 and 4 are common bezel widths, but you can calculate the exact width using this formula, where `deviceWidth` is in millimeters, `screen` is the screen's diagonal length in millimeters, and `ratio` is the screen resolution's `width / height`:
+* `rules`: An array of various rules that must be satisfied in order to use the configuration. See the [Rules](#rules) section below.
+* `dpi`: The DPI of the device's screen, either as a scalar value or as an array of X and Y DPI. Get this information via the [Device Info App] and look for `Actual DPI X` and `Actual DPI Y` values.
+* `bw`: The bezel width in millimeters, with many phones having between 3 or 4mm bezel widths. See the [Calculating Bezel Width](#calculating-bezel-width) section below.
+* `ac`: The accuracy of this entry. This is not currently used in [webvr-polyfill], but may in the future, and used to settle discrepencies between device reported information versus DPDB data, although this is more for Android apps that have may potentially have access to both API reporting and DPDB results. Can be one of the following values:
+    * `0`: measurements are speculative. Use as fallback only.
+    * `500`: measurements are based on the device's self-reported values, which is often inaccurate. Unless you're physically measuring a device, this is probably the value to use.
+    * `1000`: measurements are based on measuring a physical device.
+
+### Rules
+
+The `rules` entry is an array of objects, each with one key/value pair, and matches if *any* of the rules match the device.
+
+#### User-Agent
+
+The `ua` rule is matched with the device's User-Agent string. It is not a regular expression, but just a simple substring match. Go to [useragentstring.com] and find something unique that looks like the device's name. Use this if device type is `"android"`. Keep in mind of other models, where a string for the Nexus 5 could match the Nexus 5X, hence a string like `"Nexus 5 "` (note the extra space).
+
+```js
+  { "ua": "ASUS_Z00AD" }
+```
+
+#### MDMH
+
+The `mdmh` rule matches a device based on manufacturer, device, model, and hardware, as reported by the device's Android API. This rule is only applicable to Android devices running native apps, not the web.
+
+```js
+  { "mdmh": "asus/*/ASUS_Z00AD/*" }
+```
+
+#### Resolution
+
+The `res` rule matches a device based on its exact pixel resolution. This should normally only be used on iOS devices because there's a 1:1 mapping between exact resolution and phone model.
+
+```js
+  { "res": [640, 960] }
+```
+
+### Calculating Bezel Width
+
+You can calculate the exact bezel width using this formula, where `deviceWidth` is in millimeters, `screen` is the screen's diagonal length in millimeters, and `ratio` is the screen resolution's `width / height`:
 
 ```js
 (deviceWidth - Math.sqrt((screen * screen) / (1 + (1 / (ratio * ratio))))) / 2;
 ```
+
 
 ## Change Log
 
