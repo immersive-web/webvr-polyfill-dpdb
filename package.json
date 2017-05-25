@@ -9,5 +9,12 @@
   "repository": "WebVRRocks/webvr-polyfill-dpdb",
   "bugs": {
     "url": "https://github.com/WebVRRocks/webvr-polyfill-dpdb/issues"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.4.2"
   }
 }
