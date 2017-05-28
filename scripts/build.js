@@ -9,7 +9,7 @@ let dpdbObj;
 
 try {
   dpdbObj = JSON.parse(dpdbStr);
-  console.log(`Successfully parsed JSON object from file "${inputFile}".`)
+  console.log(`Successfully parsed JSON object from file "${inputFile}".`);
 } catch (err) {
   throw new Error(`Could not parse as JSON from file "${inputFile}"`);
   console.error(err);
