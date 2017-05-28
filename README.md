@@ -5,27 +5,31 @@
 
 This is a fork of the [online cache](https://storage.googleapis.com/cardboard-dpdb/dpdb.json) of the **Device Parameter Database (DPDB)** for the [webvr-polyfill].
 
-## Adding A Device
+## Adding a Device
 
 You'll need to update `dpdb-formatted.json` with your device's information in the following format:
 
 ```json
 {
-  "type": "android",
-  "rules": [
+  "devices": [
     {
-      "mdmh": "asus/*/ASUS_Z00AD/*"
-    },
-    {
-      "ua": "ASUS_Z00AD"
+      "type": "android",
+      "rules": [
+        {
+          "mdmh": "asus/*/ASUS_Z00AD/*"
+        },
+        {
+          "ua": "ASUS_Z00AD"
+        }
+      ],
+      "dpi": [
+        403,
+        404.6
+      ],
+      "bw": 3,
+      "ac": 1000
     }
-    ],
-  "dpi": [
-    403,
-    404.6
-  ],
-  "bw": 3,
-  "ac": 1000
+  ]
 }
 ```
 
@@ -74,6 +78,19 @@ You can calculate the exact bezel width using this formula, where `deviceWidth` 
 (deviceWidth - Math.sqrt((screen * screen) / (1 + (1 / (ratio * ratio))))) / 2;
 ```
 
+## Scripts
+
+To generate the `dpdb.json` file from the `dpdb-formatted.json` source file, run this [npm](https://npmjs.org/) script from the command line:
+
+```sh
+npm run build
+```
+
+Or call this [Node](https://nodejs.org) script directly:
+
+```sh
+node scripts/build.js --write
+```
 
 ## Change Log
 
