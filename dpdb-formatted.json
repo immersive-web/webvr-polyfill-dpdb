@@ -40,7 +40,7 @@
       "type": "android",
       "rules": [
         {
-          "mdmh": "Google//Pixel XL/"
+          "mdmh": "Google/*/Pixel XL/*"
         },
         {
           "ua": "Pixel XL"
@@ -57,7 +57,7 @@
       "type": "android",
       "rules": [
         {
-          "mdmh": "Google//Pixel/"
+          "mdmh": "Google/*/Pixel/*"
         },
         {
           "ua": "Pixel"
