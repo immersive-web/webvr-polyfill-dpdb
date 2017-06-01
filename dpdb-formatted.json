@@ -807,6 +807,23 @@
       "type": "android",
       "rules": [
         {
+          "mdmh": "samsung/*/SGH-M919/*"
+        },
+        {
+          "ua": "SGH-M919"
+        }
+      ],
+      "dpi": [
+        440.8,
+        437.7
+      ],
+      "bw": 3,
+      "ac": 1000
+    },
+    {
+      "type": "android",
+      "rules": [
+        {
           "mdmh": "samsung/*/SM-N9005/*"
         },
         {
