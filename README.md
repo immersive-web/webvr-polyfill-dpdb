@@ -96,6 +96,9 @@ node scripts/build.js --write
 
 The following devices were added (and/or corrections made):
 
+### 2017-06-01
+- [Samsung S4](https://github.com/WebVRRocks/webvr-polyfill-dpdb/commit/8e89ba9bc3d2996dd845a005fa0f92b2f768d098)
+
 ### 2017-05-22
 - [Google Pixel](https://github.com/googlevr/webvr-polyfill/commit/1da4b02f702bb0e2662ce713a52fb452290f36c1#diff-7c2d4996a1c9e98511cab90ef34c060d)
 
