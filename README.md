@@ -96,6 +96,10 @@ node scripts/build.js --write
 
 The following devices were added (and/or corrections made):
 
+### 2017-08-27
+- [Samsung S8](https://github.com/WebVRRocks/webvr-polyfill-dpdb/issues/25)
+- [Lenovo Phab 2 Pro](https://github.com/WebVRRocks/webvr-polyfill-dpdb/issues/24)
+
 ### 2017-07-09
 - [Samsung S8+](https://github.com/WebVRRocks/webvr-polyfill-dpdb/issues/23)
 
