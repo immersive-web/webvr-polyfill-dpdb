@@ -8,7 +8,7 @@
   "homepage": "https://github.com/WebVRRocks/webvr-polyfill-dpdb",
   "repository": "WebVRRocks/webvr-polyfill-dpdb",
   "bugs": {
-    "url": "https://github.com/googlevr/webvr-polyfill/issues/new?title=[DPDB]+"
+    "url": "https://github.com/WebVRRocks/webvr-polyfill-dpdb/issues/new"
   },
   "scripts": {
     "start": "npm run build",
