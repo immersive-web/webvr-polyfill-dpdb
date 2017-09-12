@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "last_updated": "2017-08-27T14:39:31Z",
+  "last_updated": "2017-09-12T18:54:02Z",
   "devices": [
     {
       "type": "android",
@@ -417,6 +417,23 @@
       "dpi": 240,
       "bw": 3,
       "ac": 500
+    },
+    {
+      "type": "android",
+      "rules": [
+        {
+          "mdmh": "motorola/*/G5/*"
+        },
+        {
+          "ua": "Moto G (5) Plus"
+        }
+      ],
+      "dpi": [
+        403.4,
+        403
+      ],
+      "bw": 3,
+      "ac": 1000
     },
     {
       "type": "android",
@@ -1014,6 +1031,23 @@
       "dpi": [
         515.1,
         518.4
+      ],
+      "bw": 3,
+      "ac": 1000
+    },
+    {
+      "type": "android",
+      "rules": [
+        {
+          "mdmh": "samsung/*/SM-N920P/*"
+        },
+        {
+          "ua": "SM-N920P"
+        }
+      ],
+      "dpi": [
+        386.3655,
+        390.144
       ],
       "bw": 3,
       "ac": 1000

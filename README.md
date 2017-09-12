@@ -96,6 +96,10 @@ node scripts/build.js --write
 
 The following devices were added (and/or corrections made):
 
+### 2017-09-12
+- [Motorola G5 Plus](https://github.com/WebVRRocks/webvr-polyfill-dpdb/issues/27)
+- [Samsung Note 5 (SM-N920P)](https://github.com/WebVRRocks/webvr-polyfill-dpdb/issues/26)
+
 ### 2017-08-27
 - [Samsung S8](https://github.com/WebVRRocks/webvr-polyfill-dpdb/issues/25)
 - [Lenovo Phab 2 Pro](https://github.com/WebVRRocks/webvr-polyfill-dpdb/issues/24)
