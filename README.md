@@ -96,6 +96,9 @@ node scripts/build.js --write
 
 The following devices were added (and/or corrections made):
 
+### 2017-10-12
+- [Fly IQ4412](https://github.com/WebVRRocks/webvr-polyfill-dpdb/issues/28)
+
 ### 2017-09-12
 - [Motorola G5 Plus](https://github.com/WebVRRocks/webvr-polyfill-dpdb/issues/27)
 - [Samsung Note 5 (SM-N920P)](https://github.com/WebVRRocks/webvr-polyfill-dpdb/issues/26)

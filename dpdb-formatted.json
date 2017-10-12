@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "last_updated": "2017-09-12T18:54:02Z",
+  "last_updated": "2017-10-12T17:44:41Z",
   "devices": [
     {
       "type": "android",
@@ -1504,6 +1504,20 @@
         480,
         443.3
       ],
+      "bw": 3,
+      "ac": 1000
+    },
+    {
+      "type": "android",
+      "rules": [
+        {
+          "mdmh": "Fly/*/IQ4412/*"
+        },
+        {
+          "ua": "IQ4412"
+        }
+      ],
+      "dpi": 307.9,
       "bw": 3,
       "ac": 1000
     },
