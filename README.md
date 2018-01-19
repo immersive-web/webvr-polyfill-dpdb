@@ -96,6 +96,10 @@ node scripts/build.js --write
 
 The following devices were added (and/or corrections made):
 
+### 2018-01-19
+- [OnePlus 5](https://github.com/WebVRRocks/webvr-polyfill-dpdb/pull/31)
+- [BENEVE VR5](https://github.com/WebVRRocks/webvr-polyfill-dpdb/pull/30)
+
 ### 2017-10-12
 - [Fly IQ4412](https://github.com/WebVRRocks/webvr-polyfill-dpdb/issues/28)
 
