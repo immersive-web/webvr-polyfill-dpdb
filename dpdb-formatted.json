@@ -725,6 +725,23 @@
       "type": "android",
       "rules": [
         {
+          "mdmh": "OnePlus/*/ONEPLUS A5000/*"
+        },
+        {
+          "ua": "ONEPLUS A5000 "
+        }
+      ],
+      "dpi": [
+        403.411,
+        399.737
+      ],
+      "bw": 3,
+      "ac": 1000
+    },
+    {
+      "type": "android",
+      "rules": [
+        {
           "mdmh": "OPPO/*/X909/*"
         },
         {
