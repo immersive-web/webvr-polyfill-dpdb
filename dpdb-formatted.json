@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "last_updated": "2017-10-12T17:44:41Z",
+  "last_updated": "2017-12-08T10:31:52Z",
   "devices": [
     {
       "type": "android",
@@ -1532,6 +1532,20 @@
         }
       ],
       "dpi": 240,
+      "bw": 3,
+      "ac": 500
+    },
+    {
+      "type": "android",
+      "rules": [
+        {
+          "mdmh": "BENEVE/*/VR518/*"
+        },
+        {
+          "ua": "VR518"
+        }
+      ],
+      "dpi": 480,
       "bw": 3,
       "ac": 500
     },
