@@ -1,6 +1,6 @@
 {
   "name": "webvr-polyfill-dpdb",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A Device Parameter Database for the WebVR Polyfill",
   "main": "dpdb.json",
   "license": "Apache-2.0",
