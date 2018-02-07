@@ -742,6 +742,23 @@
       "type": "android",
       "rules": [
         {
+          "mdmh": "OnePlus/*/ONE A5010/*"
+        },
+        {
+          "ua": "ONEPLUS A5010"
+        }
+      ],
+      "dpi": [
+        403,
+        400
+      ],
+      "bw": 2,
+      "ac": 1000
+    },
+    {
+      "type": "android",
+      "rules": [
+        {
           "mdmh": "OPPO/*/X909/*"
         },
         {
