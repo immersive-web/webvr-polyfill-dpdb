@@ -187,6 +187,20 @@
       "type": "android",
       "rules": [
         {
+          "mdmh": "Huawei/*/BLN-L24/*"
+        },
+        {
+          "ua": "HONORBLN-L24"
+        }
+      ],
+      "dpi": 480,
+      "bw": 4,
+      "ac": 500
+    },
+    {
+      "type": "android",
+      "rules": [
+        {
           "mdmh": "LENOVO/*/Lenovo PB2-690Y/*"
         },
         {
