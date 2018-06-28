@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "last_updated": "2018-06-13T16:10:22Z",
+  "last_updated": "2018-06-28T09:37:47Z",
   "devices": [
     {
       "type": "android",
@@ -195,6 +195,17 @@
       ],
       "dpi": 480,
       "bw": 4,
+      "ac": 500
+    },
+    {
+      "type": "android",
+      "rules": [
+        {
+          "ua": "BKL-L09"
+        }
+      ],
+      "dpi": 403,
+      "bw": 3.47,
       "ac": 500
     },
     {
