@@ -201,6 +201,9 @@
       "type": "android",
       "rules": [
         {
+          "mdmh": "Huawei/*/BKL-L09/*"
+        },        
+        {
           "ua": "BKL-L09"
         }
       ],
