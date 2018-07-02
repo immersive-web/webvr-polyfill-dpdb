@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "last_updated": "2018-06-28T09:37:47Z",
+  "last_updated": "2018-07-02T04:38:09Z",
   "devices": [
     {
       "type": "android",
@@ -202,7 +202,7 @@
       "rules": [
         {
           "mdmh": "Huawei/*/BKL-L09/*"
-        },        
+        },
         {
           "ua": "BKL-L09"
         }
