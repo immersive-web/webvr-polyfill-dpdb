@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "last_updated": "2018-08-30T14:54:13Z",
+  "last_updated": "2018-10-17T15:31:16Z",
   "devices": [
     {
       "type": "android",
@@ -1441,6 +1441,23 @@
         },
         {
           "ua": "SM-G955U"
+        }
+      ],
+      "dpi": [
+        522.514,
+        525.762
+      ],
+      "bw": 3,
+      "ac": 500
+    },
+    {
+      "type": "android",
+      "rules": [
+        {
+          "mdmh": "samsung/*/SM-G955F/*"
+        },
+        {
+          "ua": "SM-G955F"
         }
       ],
       "dpi": [

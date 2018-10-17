@@ -96,6 +96,9 @@ node scripts/build.js --write
 
 The following devices were added (and/or corrections made):
 
+### 2018-10-17
+- [Samsung S8+ variant](https://github.com/immersive-web/webvr-polyfill-dpdb/issues/41)
+
 ### 2018-03-14
 - [iPhone X](https://github.com/immersive-web/webvr-polyfill-dpdb/pull/35)
 
