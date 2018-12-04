@@ -1,6 +1,10 @@
 {
   "format": 1,
+<<<<<<< HEAD
   "last_updated": "2018-12-07T22:42:17Z",
+=======
+  "last_updated": "2018-12-04T00:13:56Z",
+>>>>>>> Adding Pixel 3 XL
   "devices": [
     {
       "type": "android",
@@ -49,6 +53,23 @@
       "dpi": [
         537.9,
         537.9
+      ],
+      "bw": 3,
+      "ac": 1000
+    },
+    {
+      "type": "android",
+      "rules": [
+        {
+          "mdmh": "Google/*/Pixel 3 XL/*"
+        },
+        {
+          "ua": "Pixel 3 XL"
+        }
+      ],
+      "dpi": [
+        558.5,
+        553.8
       ],
       "bw": 3,
       "ac": 1000
