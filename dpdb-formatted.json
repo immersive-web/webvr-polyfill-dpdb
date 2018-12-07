@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "last_updated": "2018-10-17T15:31:16Z",
+  "last_updated": "2018-12-07T22:42:17Z",
   "devices": [
     {
       "type": "android",
@@ -32,6 +32,23 @@
       "dpi": [
         403,
         404.6
+      ],
+      "bw": 3,
+      "ac": 1000
+    },
+    {
+      "type": "android",
+      "rules": [
+        {
+          "mdmh": "Google/*/Pixel 2 XL/*"
+        },
+        {
+          "ua": "Pixel 2 XL"
+        }
+      ],
+      "dpi": [
+        537.9,
+        537.9
       ],
       "bw": 3,
       "ac": 1000
