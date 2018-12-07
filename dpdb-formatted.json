@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "last_updated": "2018-12-07T22:42:17Z",
+  "last_updated": "2018-12-07T23:58:30Z",
   "devices": [
     {
       "type": "android",
@@ -46,10 +46,7 @@
           "ua": "Pixel 2 XL"
         }
       ],
-      "dpi": [
-        537.9,
-        537.9
-      ],
+      "dpi": 537.9,
       "bw": 3,
       "ac": 1000
     },
@@ -86,6 +83,34 @@
       ],
       "bw": 3,
       "ac": 1000
+    },
+    {
+      "type": "android",
+      "rules": [
+        {
+          "mdmh": "Google/*/Pixel 3/*"
+        },
+        {
+          "ua": "Pixel 3"
+        }
+      ],
+      "dpi": 442.4,
+      "bw": 3,
+      "ac": 1000
+    },
+    {
+      "type": "android",
+      "rules": [
+        {
+          "mdmh": "Google/*/Pixel 2/*"
+        },
+        {
+          "ua": "Pixel 2"
+        }
+      ],
+      "dpi": 441,
+      "bw": 3,
+      "ac": 500
     },
     {
       "type": "android",
