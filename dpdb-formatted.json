@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "last_updated": "2018-12-07T23:58:30Z",
+  "last_updated": "2018-12-08T00:01:14Z",
   "devices": [
     {
       "type": "android",
@@ -32,6 +32,23 @@
       "dpi": [
         403,
         404.6
+      ],
+      "bw": 3,
+      "ac": 1000
+    },
+    {
+      "type": "android",
+      "rules": [
+        {
+          "mdmh": "Google/*/Pixel 3 XL/*"
+        },
+        {
+          "ua": "Pixel 3 XL"
+        }
+      ],
+      "dpi": [
+        558.5,
+        553.8
       ],
       "bw": 3,
       "ac": 1000
