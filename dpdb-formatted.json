@@ -1,10 +1,6 @@
 {
   "format": 1,
-<<<<<<< HEAD
   "last_updated": "2018-12-07T22:42:17Z",
-=======
-  "last_updated": "2018-12-04T00:13:56Z",
->>>>>>> Adding Pixel 3 XL
   "devices": [
     {
       "type": "android",
