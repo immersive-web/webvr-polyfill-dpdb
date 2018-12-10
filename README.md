@@ -96,6 +96,12 @@ node scripts/build.js --write
 
 The following devices were added (and/or corrections made):
 
+### 2018-12-10
+- [Pixel 2](https://github.com/immersive-web/webvr-polyfill-dpdb/pull/46)
+- [Pixel 3](https://github.com/immersive-web/webvr-polyfill-dpdb/pull/46)
+- [Pixel 2 XL](https://github.com/immersive-web/webvr-polyfill-dpdb/pull/44)
+- [Pixel 3 XL](https://github.com/immersive-web/webvr-polyfill-dpdb/pull/43)
+
 ### 2018-10-17
 - [Samsung S8+ variant](https://github.com/immersive-web/webvr-polyfill-dpdb/issues/41)
 
