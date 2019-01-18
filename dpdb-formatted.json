@@ -1530,6 +1530,142 @@
       "type": "android",
       "rules": [
         {
+          "mdmh": "samsung/*/SM-G960F/*"
+        },
+        {
+          "ua": "SM-G960F"
+        }
+      ],
+      "dpi": [
+        569.575,
+        571.500
+      ],
+      "bw": 3,
+      "ac": 1000
+    },
+    {
+      "type": "android",
+      "rules": [
+        {
+          "mdmh": "samsung/*/SM-G9600/*"
+        },
+        {
+          "ua": "SM-G9600"
+        }
+      ],
+      "dpi": [
+        569.575,
+        571.500
+      ],
+      "bw": 3,
+      "ac": 1000
+    },
+    {
+      "type": "android",
+      "rules": [
+        {
+          "mdmh": "samsung/*/SM-G960T/*"
+        },
+        {
+          "ua": "SM-G960T"
+        }
+      ],
+      "dpi": [
+        569.575,
+        571.500
+      ],
+      "bw": 3,
+      "ac": 1000
+    },
+    {
+      "type": "android",
+      "rules": [
+        {
+          "mdmh": "samsung/*/SM-G960N/*"
+        },
+        {
+          "ua": "SM-G960N"
+        }
+      ],
+      "dpi": [
+        569.575,
+        571.500
+      ],
+      "bw": 3,
+      "ac": 1000
+    },
+    {
+      "type": "android",
+      "rules": [
+        {
+          "mdmh": "samsung/*/SM-G960U/*"
+        },
+        {
+          "ua": "SM-G960U"
+        }
+      ],
+      "dpi": [
+        569.575,
+        571.500
+      ],
+      "bw": 3,
+      "ac": 1000
+    },
+    {
+      "type": "android",
+      "rules": [
+        {
+          "mdmh": "samsung/*/SM-G9608/*"
+        },
+        {
+          "ua": "SM-G9608"
+        }
+      ],
+      "dpi": [
+        569.575,
+        571.500
+      ],
+      "bw": 3,
+      "ac": 1000
+    },
+    {
+      "type": "android",
+      "rules": [
+        {
+          "mdmh": "samsung/*/SM-G960FD/*"
+        },
+        {
+          "ua": "SM-G960FD"
+        }
+      ],
+      "dpi": [
+        569.575,
+        571.500
+      ],
+      "bw": 3,
+      "ac": 1000
+    },
+    {
+      "type": "android",
+      "rules": [
+        {
+          "mdmh": "samsung/*/SM-G960W/*"
+        },
+        {
+          "ua": "SM-G960W"
+        }
+      ],
+      "dpi": [
+        569.575,
+        571.500
+      ],
+      "bw": 3,
+      "ac": 1000
+    },
+    {
+      "type": "android",
+      "rules": [
+        {
           "mdmh": "Sony/*/C6903/*"
         },
         {
