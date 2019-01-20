@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "last_updated": "2019-01-18T18:23:19Z",
+  "last_updated": "2019-01-20T15:08:51Z",
   "devices": [
     {
       "type": "android",
@@ -1918,6 +1918,20 @@
       "dpi": 458,
       "bw": 4,
       "ac": 1000
+    },
+    {
+      "type": "android",
+      "rules": [
+        {
+          "mdmh": "Huawei/*/EML-L29/*"
+        },
+        {
+          "ua": "EML-L29"
+        }
+      ],
+      "dpi": 428,
+      "bw": 3.45,
+      "ac": 500
     }
   ]
 }
