@@ -96,6 +96,9 @@ node scripts/build.js --write
 
 The following devices were added (and/or corrections made):
 
+### 2019-02-19
+- [iPhone XS Max](https://github.com/immersive-web/webvr-polyfill-dpdb/pull/51)
+
 ### 2018-12-10
 - [Pixel 2](https://github.com/immersive-web/webvr-polyfill-dpdb/pull/46)
 - [Pixel 3](https://github.com/immersive-web/webvr-polyfill-dpdb/pull/46)
