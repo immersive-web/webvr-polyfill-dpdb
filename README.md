@@ -96,6 +96,9 @@ node scripts/build.js --write
 
 The following devices were added (and/or corrections made):
 
+### 2019-04-25
+- [Samsung J5 Prime](https://github.com/immersive-web/webvr-polyfill-dpdb/pull/52)
+
 ### 2019-02-19
 - [iPhone XS Max](https://github.com/immersive-web/webvr-polyfill-dpdb/pull/51)
 
