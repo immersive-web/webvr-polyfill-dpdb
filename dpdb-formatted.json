@@ -782,18 +782,6 @@
         },
         {
           "ua": "ONE E1001"
-        },
-        {
-          "mdmh": "OnePlus/*/ONE E1003/*"
-        },
-        {
-          "ua": "ONE E1003"
-        },
-        {
-          "mdmh": "OnePlus/*/ONE E1005/*"
-        },
-        {
-          "ua": "ONE E1005"
         }
       ],
       "dpi": [
@@ -807,22 +795,44 @@
       "type": "android",
       "rules": [
         {
+          "mdmh": "OnePlus/*/ONE E1003/*"
+        },
+        {
+          "ua": "ONE E1003"
+        }
+      ],
+      "dpi": [
+        442.4,
+        441.4
+      ],
+      "bw": 3,
+      "ac": 1000
+    },
+    {
+      "type": "android",
+      "rules": [
+        {
+          "mdmh": "OnePlus/*/ONE E1005/*"
+        },
+        {
+          "ua": "ONE E1005"
+        }
+      ],
+      "dpi": [
+        442.4,
+        441.4
+      ],
+      "bw": 3,
+      "ac": 1000
+    },    
+    {
+      "type": "android",
+      "rules": [
+        {
           "mdmh": "OnePlus/*/ONE A2001/*"
         },
         {
           "ua": "ONE A2001"
-        },
-        {
-          "mdmh": "OnePlus/*/ONE A2003/*"
-        },
-        {
-          "ua": "ONE A2003"
-        },
-        {
-          "mdmh": "OnePlus/*/ONE A2005/*"
-        },
-        {
-          "ua": "ONE A2005"
         }
       ],
       "dpi": [
@@ -836,17 +846,67 @@
       "type": "android",
       "rules": [
         {
+          "mdmh": "OnePlus/*/ONE A2003/*"
+        },
+        {
+          "ua": "ONE A2003"
+        }
+      ],
+      "dpi": [
+        391.9,
+        405.4
+      ],
+      "bw": 3,
+      "ac": 1000
+    },
+    {
+      "type": "android",
+      "rules": [
+        {
+          "mdmh": "OnePlus/*/ONE A2005/*"
+        },
+        {
+          "ua": "ONE A2005"
+        }
+      ],
+      "dpi": [
+        391.9,
+        405.4
+      ],
+      "bw": 3,
+      "ac": 1000
+    },    
+    {
+      "type": "android",
+      "rules": [
+        {
           "mdmh": "OnePlus/*/ONEPLUS A3000/*"
         },
         {
           "ua": "ONEPLUS A3000"
-        },
+        }
+      ],
+      "dpi": 401,
+      "bw": 3,
+      "ac": 500
+    },
+    {
+      "type": "android",
+      "rules": [
         {
           "mdmh": "OnePlus/*/ONEPLUS A3003/*"
         },
         {
           "ua": "ONEPLUS A3003"
-        },
+        }
+      ],
+      "dpi": 401,
+      "bw": 3,
+      "ac": 500
+    },
+    {
+      "type": "android",
+      "rules": [
         {
           "mdmh": "OnePlus/*/ONEPLUS A3010/*"
         },
@@ -900,12 +960,6 @@
         },
         {
           "ua": "ONEPLUS A6000"
-        },
-        {
-          "mdmh": "OnePlus/*/ONEPLUS A6003/*"
-        },
-        {
-          "ua": "ONEPLUS A6003"
         }
       ],
       "dpi": 401,
@@ -916,11 +970,33 @@
       "type": "android",
       "rules": [
         {
+          "mdmh": "OnePlus/*/ONEPLUS A6003/*"
+        },
+        {
+          "ua": "ONEPLUS A6003"
+        }
+      ],
+      "dpi": 401,
+      "bw": 3,
+      "ac": 500
+    },    
+    {
+      "type": "android",
+      "rules": [
+        {
           "mdmh": "OnePlus/*/ONEPLUS A6010/*"
         },
         {
           "ua": "ONEPLUS A6010"
-        },
+        }
+      ],
+      "dpi": 401,
+      "bw": 2,
+      "ac": 500
+    },    
+    {
+      "type": "android",
+      "rules": [
         {
           "mdmh": "OnePlus/*/ONEPLUS A6013/*"
         },
@@ -931,7 +1007,7 @@
       "dpi": 401,
       "bw": 2,
       "ac": 500
-    },    
+    },       
     {
       "type": "android",
       "rules": [
