@@ -1982,10 +1982,10 @@
       "type": "android",
       "rules": [
         {
-          "mdmh": "samsung/*/SM-G970/*"
+          "mdmh": "samsung/*/SM-G970F/*"
         },
         {
-          "ua": "SM-G970"
+          "ua": "SM-G970F"
         }
       ],
       "dpi": 438,
@@ -1996,10 +1996,10 @@
       "type": "android",
       "rules": [
         {
-          "mdmh": "samsung/*/SM-G973/*"
+          "mdmh": "samsung/*/SM-G973F/*"
         },
         {
-          "ua": "SM-G973"
+          "ua": "SM-G973F"
         }
       ],
       "dpi": 550,
@@ -2010,10 +2010,10 @@
       "type": "android",
       "rules": [
         {
-          "mdmh": "samsung/*/SM-G975/*"
+          "mdmh": "samsung/*/SM-G975F/*"
         },
         {
-          "ua": "SM-G975"
+          "ua": "SM-G975F"
         }
       ],
       "dpi": 522,
@@ -2024,10 +2024,10 @@
       "type": "android",
       "rules": [
         {
-          "mdmh": "samsung/*/SM-G977/*"
+          "mdmh": "samsung/*/SM-G977F/*"
         },
         {
-          "ua": "SM-G977"
+          "ua": "SM-G977F"
         }
       ],
       "dpi": 505,
