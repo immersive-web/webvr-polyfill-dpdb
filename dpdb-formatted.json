@@ -778,6 +778,18 @@
       "type": "android",
       "rules": [
         {
+          "mdmh": "OnePlus/*/ONE E1001/*"
+        },
+        {
+          "ua": "ONE E1001"
+        },
+        {
+          "mdmh": "OnePlus/*/ONE E1003/*"
+        },
+        {
+          "ua": "ONE E1003"
+        },
+        {
           "mdmh": "OnePlus/*/ONE E1005/*"
         },
         {
@@ -794,6 +806,18 @@
     {
       "type": "android",
       "rules": [
+        {
+          "mdmh": "OnePlus/*/ONE A2001/*"
+        },
+        {
+          "ua": "ONE A2001"
+        },
+        {
+          "mdmh": "OnePlus/*/ONE A2003/*"
+        },
+        {
+          "ua": "ONE A2003"
+        },
         {
           "mdmh": "OnePlus/*/ONE A2005/*"
         },
