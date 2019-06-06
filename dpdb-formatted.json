@@ -1666,6 +1666,20 @@
       "type": "android",
       "rules": [
         {
+          "mdmh": "samsung/*/SM-G965F/*"
+        },
+        {
+          "ua": "SM-G965F"
+        }
+      ],
+      "dpi": 529,
+      "bw": 2,
+      "ac": 1000
+    },
+    {
+      "type": "android",
+      "rules": [
+        {
           "mdmh": "Sony/*/C6903/*"
         },
         {
