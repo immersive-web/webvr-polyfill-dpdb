@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "last_updated": "2019-04-25T23:48:33Z",
+  "last_updated": "2019-06-07T08:07:16Z",
   "devices": [
     {
       "type": "android",
@@ -16,6 +16,34 @@
         320.8,
         323
       ],
+      "bw": 3,
+      "ac": 500
+    },
+    {
+      "type": "android",
+      "rules": [
+        {
+          "mdmh": "asus/*/ASUS_X00PD/*"
+        },
+        {
+          "ua": "ASUS_X00PD"
+        }
+      ],
+      "dpi": 245,
+      "bw": 3,
+      "ac": 500
+    },
+    {
+      "type": "android",
+      "rules": [
+        {
+          "mdmh": "asus/*/ASUS_X008D/*"
+        },
+        {
+          "ua": "ASUS_X008D"
+        }
+      ],
+      "dpi": 282,
       "bw": 3,
       "ac": 500
     },
