@@ -96,6 +96,13 @@ node scripts/build.js --write
 
 The following devices were added (and/or corrections made):
 
+### 2019-11-09
+- [iPhone XR](https://github.com/immersive-web/webvr-polyfill-dpdb/pull/53)
+- [OnePlus 3, OnePlus 3T, OnePlus 6, OnePlus 6T, international variants of OnePlus 2 and OnePlus X](https://github.com/immersive-web/webvr-polyfill-dpdb/pull/54)
+- [Asus x008d, Asus x00pd](https://github.com/immersive-web/webvr-polyfill-dpdb/pull/57/files)
+- [Samsung Galaxy S9+](https://github.com/immersive-web/webvr-polyfill-dpdb/pull/56)
+- [Samsung Galaxy S10, variants](https://github.com/immersive-web/webvr-polyfill-dpdb/pull/55)
+
 ### 2019-04-25
 - [Samsung J5 Prime](https://github.com/immersive-web/webvr-polyfill-dpdb/pull/52)
 

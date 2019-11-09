@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "last_updated": "2019-06-07T08:07:16Z",
+  "last_updated": "2019-11-09T17:36:14Z",
   "devices": [
     {
       "type": "android",
@@ -852,7 +852,7 @@
       ],
       "bw": 3,
       "ac": 1000
-    },    
+    },
     {
       "type": "android",
       "rules": [
@@ -903,7 +903,7 @@
       ],
       "bw": 3,
       "ac": 1000
-    },    
+    },
     {
       "type": "android",
       "rules": [
@@ -1007,7 +1007,7 @@
       "dpi": 401,
       "bw": 3,
       "ac": 500
-    },    
+    },
     {
       "type": "android",
       "rules": [
@@ -1021,7 +1021,7 @@
       "dpi": 401,
       "bw": 2,
       "ac": 500
-    },    
+    },
     {
       "type": "android",
       "rules": [
@@ -1035,7 +1035,7 @@
       "dpi": 401,
       "bw": 2,
       "ac": 500
-    },       
+    },
     {
       "type": "android",
       "rules": [
