@@ -2145,6 +2145,62 @@
       "ac": 1000
     },
     {
+      "type": "android",
+      "rules": [
+        {
+          "mdmh": "samsung/*/SM-G970F/*"
+        },
+        {
+          "ua": "SM-G970F"
+        }
+      ],
+      "dpi": 438,
+      "bw": 2.281,
+      "ac": 500
+    },
+    {
+      "type": "android",
+      "rules": [
+        {
+          "mdmh": "samsung/*/SM-G973F/*"
+        },
+        {
+          "ua": "SM-G973F"
+        }
+      ],
+      "dpi": 550,
+      "bw": 2.002,
+      "ac": 500
+    },
+    {
+      "type": "android",
+      "rules": [
+        {
+          "mdmh": "samsung/*/SM-G975F/*"
+        },
+        {
+          "ua": "SM-G975F"
+        }
+      ],
+      "dpi": 522,
+      "bw": 2.054,
+      "ac": 500
+    },
+    {
+      "type": "android",
+      "rules": [
+        {
+          "mdmh": "samsung/*/SM-G977F/*"
+        },
+        {
+          "ua": "SM-G977F"
+        }
+      ],
+      "dpi": 505,
+      "bw": 2.334,
+      "ac": 500
+    },
+    {
       "type": "ios",
       "rules": [
         {
