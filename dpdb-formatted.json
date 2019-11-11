@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "last_updated": "2019-11-09T17:36:14Z",
+  "last_updated": "2019-11-11T16:28:00Z",
   "devices": [
     {
       "type": "android",
@@ -2254,6 +2254,20 @@
       ],
       "dpi": 326,
       "bw": 5,
+      "ac": 500
+    },
+	{
+      "type": "android",
+      "rules": [
+        {
+          "mdmh": "Xiaomi/*/MI 9/*"
+        },
+        {
+          "ua": "MI 9"
+        }
+      ],
+      "dpi": 404,
+      "bw": 3.4,
       "ac": 500
     }
   ]
