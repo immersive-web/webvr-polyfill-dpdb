@@ -96,6 +96,9 @@ node scripts/build.js --write
 
 The following devices were added (and/or corrections made):
 
+### 2020-12-16
+- [iPhone 12](https://github.com/immersive-web/webvr-polyfill-dpdb/pull/62)
+
 ### 2019-11-09
 - [iPhone XR](https://github.com/immersive-web/webvr-polyfill-dpdb/pull/53)
 - [OnePlus 3, OnePlus 3T, OnePlus 6, OnePlus 6T, international variants of OnePlus 2 and OnePlus X](https://github.com/immersive-web/webvr-polyfill-dpdb/pull/54)
