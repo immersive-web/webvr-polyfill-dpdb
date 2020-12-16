@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "last_updated": "2019-11-11T16:28:00Z",
+  "last_updated": "2020-12-16T20:00:02Z",
   "devices": [
     {
       "type": "android",
@@ -2256,7 +2256,7 @@
       "bw": 5,
       "ac": 500
     },
-	  {
+    {
       "type": "android",
       "rules": [
         {
